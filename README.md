@@ -3,30 +3,24 @@
 ## 📌 Deskripsi
 `test.bri` adalah aplikasi iOS berbasis **SwiftUI** yang menampilkan daftar transaksi.
 
-## 📂 Struktur Folder
-│
-├── test.bri # Main source folder
-│ ├── Screen/ # Screen-level views (halaman utama)
-│ │ └── ListTransactionScreen.swift
-│ │
-│ ├── SwiftUIComponent/ # Reusable SwiftUI components
-│ │ ├── ContentView.swift
-│ │ ├── LineView.swift
-│ │ ├── OutletCardView.swift
-│ │ ├── SegmentedControlView.swift
-│ │ └── TransactionListCard.swift
-│ │
-│ ├── SwiftUICustomeStyle/ # Kumpulan style & theme custom
-│ │
-│ ├── Assets/ # Asset catalog (gambar, warna, ikon)
-│ │
-│ ├── Persistence/ # Layer penyimpanan data
-│ │
-│ ├── test_bri.swift # Entry point aplikasi
-│ └── test_briApp.swift # Konfigurasi utama aplikasi
-│
-├── test.briTests/ # Unit tests
-├── test.briUITests/ # UI tests
+test.bri
+├── test.bri
+│   ├── Screen
+│   │   └── ListTransactionScreen.swift
+│   ├── SwiftUIComponent
+│   │   ├── ContentView.swift
+│   │   ├── LineView.swift
+│   │   ├── OutletCardView.swift
+│   │   ├── SegmentedControlView.swift
+│   │   └── TransactionListCard.swift
+│   ├── SwiftUICustomeStyle
+│   ├── Assets
+│   ├── Persistence
+│   ├── test_bri.swift
+│   └── test_briApp.swift
+├── test.briTests
+└── test.briUITests
+
 
 Berikut Hasil Test List Transaction :
 
