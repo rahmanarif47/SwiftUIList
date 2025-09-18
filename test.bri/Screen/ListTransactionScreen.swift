@@ -65,7 +65,7 @@ struct ListTransactionScreen: View {
     
     func renderListView() -> some View {
         List() {
-            ForEach(0..<10, id: \.self) { _ in
+            ForEach(0..<10, id: \.self) { i in
                 TransactionListCard()
                     .listRowSeparator(.hidden)
                     .listRowInsets(EdgeInsets())
