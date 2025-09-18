@@ -4,30 +4,29 @@
 `test.bri` adalah aplikasi iOS berbasis **SwiftUI** yang menampilkan daftar transaksi.
 
 ## 📂 Struktur Folder
-test.bri
 │
-├── test.bri                # Main source folder
-│   ├── Screen/             # Screen-level views (halaman utama)
-│   │   └── ListTransactionScreen.swift
-│   │
-│   ├── SwiftUIComponent/   # Reusable SwiftUI components
-│   │   ├── ContentView.swift
-│   │   ├── LineView.swift
-│   │   ├── OutletCardView.swift
-│   │   ├── SegmentedControlView.swift
-│   │   └── TransactionListCard.swift
-│   │
-│   ├── SwiftUICustomeStyle/ # Kumpulan style & theme custom
-│   │
-│   ├── Assets/             # Assets catalog (images, colors, icons)
-│   │
-│   ├── Persistence/        # Layer penyimpanan data (CoreData/UserDefaults/DB)
-│   │
-│   ├── test_bri.swift      # Entry point main app (SwiftUI App struct)
-│   └── test_briApp.swift   # Konfigurasi utama aplikasi
+├── test.bri # Main source folder
+│ ├── Screen/ # Screen-level views (halaman utama)
+│ │ └── ListTransactionScreen.swift
+│ │
+│ ├── SwiftUIComponent/ # Reusable SwiftUI components
+│ │ ├── ContentView.swift
+│ │ ├── LineView.swift
+│ │ ├── OutletCardView.swift
+│ │ ├── SegmentedControlView.swift
+│ │ └── TransactionListCard.swift
+│ │
+│ ├── SwiftUICustomeStyle/ # Kumpulan style & theme custom
+│ │
+│ ├── Assets/ # Asset catalog (gambar, warna, ikon)
+│ │
+│ ├── Persistence/ # Layer penyimpanan data
+│ │
+│ ├── test_bri.swift # Entry point aplikasi
+│ └── test_briApp.swift # Konfigurasi utama aplikasi
 │
-├── test.briTests/          # Unit tests
-├── test.briUITests/        # UI tests
+├── test.briTests/ # Unit tests
+├── test.briUITests/ # UI tests
 
 Berikut Hasil Test List Transaction :
 
